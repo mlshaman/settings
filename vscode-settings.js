@@ -66,7 +66,10 @@
             "comments": {
                 "fontStyle": ""
             }
-        }
+        },
+        "[Tomorrow Night]": {
+            "comments": "#349a76",
+        },
     },
     "editor.bracketPairColorization.enabled": false,
     // --- <NOTEBOOK> ---
