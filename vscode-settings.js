@@ -122,19 +122,28 @@
             "comments": "#40a33d",
             "strings": "#c44fb4",
         },
+        "[GitHub Light Default]": {
+            "comments": "#40a33d",
+            "strings": "#c44fb4",
+        },
         "[GitHub Dark]": {
+            "comments": "#69c43f",
+            "strings": "#f16ae6",
+        },
+        "[GitHub Dark Default]": {
             "comments": "#69c43f",
             "strings": "#f16ae6",
         },
         "[1337]": {
             "comments": "#6ec7bf"
         },
-        "[Nord Wave]": {
-            "comments": "#836dc8",
-        },
         "[Abyss]": {
             "comments": "#135d66"
         },
+        "[Tomorrow]": {
+            "comments": "#23956d",
+        },
+        ///
         "[Ascetic-Night]": {
             "strings": "#41762e",
             "comments": "#71609b",
@@ -143,13 +152,16 @@
                 "foreground": "#ffffffad"
             },
         },
+        "[Tomorrow Night]": {
+            "comments": "#349a76",
+        },
+        "[Nord Wave]": {
+            "comments": "#836dc8",
+        },
         "[Gruvbox Dark Hard]": {
             "comments": {
                 "fontStyle": ""
             }
-        },
-        "[Tomorrow]": {
-            "comments": "#23956d",
         },
     },
     // --- </UI>
