@@ -114,6 +114,41 @@
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.startupEditor": "none",
     "editor.bracketPairColorization.enabled": true, // ! parens / brackets pairs colorizer
+    "editor.tokenColorCustomizations": {
+        "[GitHub Light]": {
+            "comments": "#40a33d",
+            "strings": "#c44fb4",
+        },
+        "[GitHub Dark]": {
+            "comments": "#69c43f",
+            "strings": "#f16ae6",
+        },
+        "[1337]": {
+            "comments": "#6ec7bf"
+        },
+        "[Nord Wave]": {
+            "comments": "#836dc8",
+        },
+        "[Abyss]": {
+            "comments": "#135d66"
+        },
+        "[Ascetic-Night]": {
+            "strings": "#41762e",
+            "comments": "#71609b",
+            "keywords": {
+                "fontStyle": "bold",
+                "foreground": "#ffffffad"
+            },
+        },
+        "[Gruvbox Dark Hard]": {
+            "comments": {
+                "fontStyle": ""
+            }
+        },
+        "[Tomorrow]": {
+            "comments": "#23956d",
+        },
+    },
     // --- </UI>
 
     // --- <SLINGSHOT>
