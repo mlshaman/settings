@@ -1,4 +1,4 @@
-// clean py
+// profile: clean py
 {
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
@@ -20,7 +20,7 @@
     "workbench.editor.editorActionsLocation": "titleBar"
 }
 
-// cool py
+// profile: cool py
 {
     // --- <ZEN-MODE> ---
     "zenMode.centerLayout": false,
@@ -87,4 +87,58 @@
     ],
     "workbench.colorTheme": "Default Dark+",
     // --- </NOTEBOOK> ---
+}
+
+// work
+{
+    // --- <FONT>
+    "editor.fontFamily": "'Iosevka Fixed', 'xSF Mono', 'CaskaydiaCove Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.2,
+    // --- </FONT>
+
+    // --- <ZEN-MODE> ---
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    // --- </ZEN-MODE> ---
+
+    // --- <UI>
+    "workbench.editor.wrapTabs": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.enabled": false, // ! mini-map
+    "editor.wordWrap": "on",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.startupEditor": "none",
+    "editor.bracketPairColorization.enabled": true, // ! parens / brackets pairs colorizer
+    // --- </UI>
+
+    // --- <SLINGSHOT>
+    "Slingshot.enableProjectContextualSearch": true,
+    "Slingshot.enableSystemDiagramGeneration": true,
+    "Slingshot.maxTokens": 15000,
+    "Slingshot.temperature": 0.1,
+    // --- </SLINGSHOT>
+
+    // --- <NOTEBOOK> ---
+    "notebook.lineNumbers": "on",
+    "notebook.output.textLineLimit": 1000,
+    "notebook.output.scrolling": true,
+    "notebook.output.wordWrap": true,
+    "notebook.formatOnSave.enabled": false, // ! format on save
+    // "jupyter.widgetScriptSources": [
+    //     "jsdelivr.com",
+    //     "unpkg.com"
+    // ],
+    // --- </NOTEBOOK> ---
+    
+    // --- <GITHUB-COPILOT> ---
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "github.copilot.preferredAccount": "mlshaman",
+    // --- </GITHUB-COPILOT> ---
 }
